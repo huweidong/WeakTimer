@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "WeakTimer"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of WeakTimer."
+  spec.summary      = "用于解决定时器的循环引用的问题"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  用于解决定时器的循环引用的问题
+  主要用于解决定时器和runloop造成的循环引用的问题
                    DESC
 
   spec.homepage     = "https://github.com/huweidong/WeakTimer"
