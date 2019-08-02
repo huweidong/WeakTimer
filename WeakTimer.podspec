@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "WeakTimer"
+  spec.name         = "HWDWeakTimer"
   spec.version      = "0.0.1"
   spec.summary      = "用于解决定时器的循环引用的问题"
 
